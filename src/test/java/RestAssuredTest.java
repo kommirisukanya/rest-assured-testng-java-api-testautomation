@@ -19,7 +19,7 @@ public class RestAssuredTest {
                 .get("https://reqres.in/api/users/2")
                 .then()
                 .statusCode(200)
-                .body("data.email", equalTo("jaaaanet.weaver@reqres.in"))
+                .body("data.email", equalTo("sukanya.kommirisukanya@gmail.com"))
                 .time(lessThan(1000L));
     }
 
